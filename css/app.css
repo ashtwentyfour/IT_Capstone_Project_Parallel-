@@ -1,0 +1,195 @@
+ @import(url('reset.css'));
+
+ @charset "utf-8";
+/* CSS Document */
+
+html,body{
+	font-family: 'Open Sans', sans-serif;
+	width:100%;
+	height:100%;
+	background-color: #f1f1f1;
+}
+
+#logo { 
+	height:2em; 
+}
+
+#rank{
+	font-size: 6rem;
+	text-shadow: 2px 2px #aaaaaa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	cursor: default;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+p{
+	font-weight: 300;
+}
+
+/*input[type=submit]{
+	width: 55.5px;
+    height: 55.5px;
+
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+
+    line-height: 56px;
+
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    background-color: #96DB00;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #96DB00;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+}*/
+
+.descriptor-text{	
+	font-weight: 300;
+	text-align: justify;
+}
+
+.input-field ul{
+    width: 90% !important;
+    max-height: 150px !important;
+    overflow: auto !important;
+}
+
+.centered{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#archive{
+	float:right;
+}
+
+#drop{
+	visibility: hidden;
+	position:absolute;
+	left:94%;
+	z-index:999;
+}
+
+#drop li{
+	float:none;
+}
+
+#drop-menu li{
+	float:none;
+}
+
+/***********************
+	  FORMATTING
+***********************/
+
+.justify{
+	text-align: justify;
+}
+
+.pad-right{
+	padding-right:1rem;
+}
+
+.full{
+	width:100%;
+}
+
+.half{
+	width:45%;
+} 
+
+/***********************
+		COLORS
+***********************/
+
+.grey-deloitte{
+	background-color: #DBE0E1 !important;
+}
+
+.dark-grey-text-deloitte{
+	color:#333333 !important;
+}
+
+.dark-grey-deloitte{
+	background-color: #333333 !important;
+}
+
+.bright-blue-text-deloitte{
+	color:#00A5E0 !important;
+}
+
+.bright-blue-deloitte{
+	background-color: #00A5E0 !important;
+}
+
+.green-text-deloitte{
+	color:#96DB00 !important;
+}
+
+.green-deloitte{
+	background-color:#96DB00 !important;
+}
+
+.navy-text-deloitte{
+	color:#02308A !important;
+}
+
+/***********************
+	 MEDIA QUERIES
+***********************/
+
+@media only screen and (max-width : 600px) {
+	#logo{height:1.9em;}
+}
+
+@media only screen and (max-width : 600px) {
+	#archive{float:none; width:100%; margin-top:1em;}
+	#drop{left:89% !important;}
+}
+
+@media only screen and (max-width: 800px){
+	#drop{left:93%;}
+}
+
+@media only screen and (max-width: 992px){
+	#drop{visibility: visible;}
+}

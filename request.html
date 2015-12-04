@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" style = "visibility:visible;">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>Deloitte Consulting: Request Form</title>
+
+        <link href="css/app.css" type="text/css" rel="stylesheet"/>
+        <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+         <div class="row">
+            <nav>
+                <div class="nav-wrapper white">
+                  <a href="http://www2.deloitte.com/us/en.html" class="brand-logo"><img src="img/deloitte-logo.jpg" id="logo" class="responsive-img"></img></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li class="pad-right"><a class="btn-floating btn waves-effect waves-light green-deloitte modal-trigger" href="#modal1"><i class="material-icons">help_outline</i></a></li>
+                    <li class="pad-right"><a class="btn-floating btn waves-effect waves-light bright-blue-deloitte" href="profile.html"><i class="material-icons">face</i></a></li>
+                    <li class="pad-right"><a class="btn-floating btn waves-effect waves-light bright-blue-deloitte" href="dashboard_int.php"><i class="material-icons">home</i></a></li>
+                    <li class="pad-right"><a class="btn-floating btn waves-effect waves-light dark-grey-deloitte" href="login.html"><i class="material-icons">exit_to_app</i></a></li>
+                  </ul>
+                  <ul id="drop" class="right">
+                    <li class="pad-right"><a class="btn-floating btn waves-effect waves-light dark-grey-deloitte"><i class="material-icons">more_horiz</i></a></li>
+                    <ul id="drop-menu" class="right">
+                        <li class="pad-right"><a class="btn-floating btn waves-effect waves-light green-deloitte modal-trigger" href="#modal1"><i class="material-icons">help_outline</i></a></li>
+                        <li class="pad-right"><a class="btn-floating btn waves-effect waves-light bright-blue-deloitte" href="profile.html"><i class="material-icons">face</i></a></li>
+                        <li class="pad-right"><a class="btn-floating btn waves-effect waves-light bright-blue-deloitte" href="dashboard_int.php"><i class="material-icons">home</i></a></li>
+                        <li class="pad-right"><a class="btn-floating btn waves-effect waves-light dark-grey-deloitte" href="login.html"><i class="material-icons">exit_to_app</i></a></li>
+                    </ul>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h3 class="green-text-deloitte center">Request An Assessment</h3>
+            <div class="row ">
+                <div class="col s10 offset-s1 grey-deloitte z-depth-1 grey-text darken-4">
+                    <div class="row"></div>
+                    <h5 class="navy-text-deloitte center" id="req-success" style="font-weight:300;">You have successfully submitted a ____ domain assessment request.</h5>
+                    <div class="input-field col s12 req">
+                        <select id="req-submit">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">United States</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <label>Domain</label>
+                    </div>
+                    <a class="btn-floating waves-effect waves-light bright-blue-deloitte" id="add" type="submit"><i class="material-icons">add</i></a>
+                    <div class="row center-align">
+                        <a class="btn-floating btn-large waves-effect waves-light green-deloitte" type="submit" id="req"><i class="material-icons" style="font-size:3.6rem;">done</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Compiled and minified JavaScript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+    
